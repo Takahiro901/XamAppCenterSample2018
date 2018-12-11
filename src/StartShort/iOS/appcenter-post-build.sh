@@ -10,7 +10,7 @@ set -e
 
 appCenterLoginApiToken=$AppCenterLoginToken # this comes from the build environment variables
 appName="futa_test/XamAppCenterSample2018iOS"
-deviceSetName="futa_test/MyDevice"
+deviceSetName="futa_test/my-device"
 publishedAppFileName="XamAppCenterSample2018.iOS.ipa"
 sourceFileRootDir="$APPCENTER_SOURCE_DIRECTORY/src/StartShort"
 uiTestProjectName="UITests"
