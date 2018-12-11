@@ -9,8 +9,8 @@ set -e
 # variables
 
 appCenterLoginApiToken=$AppCenterLoginToken # this comes from the build environment variables
-appName="futa_test/XamAppCenterSample2018Droid" # 自分のアプリ名に書き換える
-deviceSetName="futa_test/MyDevice" # 自分のデバイスセット名に書き換える
+appName="futa_test/XamAppCenterSample2018Droid"
+deviceSetName="futa_test/MyDevice"
 publishedAppFileName="com.futa_ttjh.XamAppCenterSample2018.apk"
 sourceFileRootDir="$APPCENTER_SOURCE_DIRECTORY/src/StartShort"
 uiTestProjectName="UITests"
